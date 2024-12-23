@@ -1,6 +1,6 @@
 # theme = "catppuccin_mocha"
-# theme = "nord-night"
-theme = "papercolor-dark"
+theme = "nord-night"
+# theme = "papercolor-dark"
 # theme = "solarized_dark"
 
 [editor]

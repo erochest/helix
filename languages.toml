@@ -6,3 +6,23 @@ language-servers = [ "pyright" ]
 [[language]]
 name = "markdown"
 language-servers = [ "markdown-oxide" ]
+
+[[language]]
+name = "factor"
+scope = "source.factor"
+file-types = [ "factor" ]
+grammar = "factor"
+
+[[grammar]]
+name = "factor"
+source = { git = "https://github.com/erochest/tree-sitter-factor.git", rev = "main" }
+
+[[language]]
+name = "csv"
+file-types = ["csv"]
+scope = "source.csv"
+
+[[grammar]]
+name = "csv"
+source.git = "https://github.com/weartist/rainbow-csv-tree-sitter"
+source.rev = "896e6d09b23a1b0d87e45bf97ca34a249f41495c"
