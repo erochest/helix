@@ -6,3 +6,9 @@ theme = "nord-night"
 [editor]
 line-number = "relative"
 soft-wrap.enable = true
+
+[keys.normal]
+"ret" = "goto_word"
+
+[keys.normal.space]
+C-r = ":reload-all"
