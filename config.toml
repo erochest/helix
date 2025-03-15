@@ -9,11 +9,16 @@ soft-wrap.enable = true
 bufferline = "multiple"
 
 [editor.indent-guides]
-reder = true
+render = true
 
 [keys.normal]
 "ret" = "goto_word"
 "esc" = ["collapse_selection", "keep_primary_selection"]
+"A-B" = "move_prev_sub_word_start"
+"A-W" = "move_next_sub_word_start"
+"A-E" = "move_next_sub_word_end"
+"C-E" = "extend_to_line_end"
+"C-k" = "kill_to_line_end"
 
 [keys.normal.space]
 C-r = ":reload-all"
